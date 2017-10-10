@@ -7,6 +7,10 @@
 # include <iostream>
 # include <unistd.h>
 
+/*
+ * is_alive ? (4+ || 1- neighbours -> death) : (3 neighbours -> life)
+ */
+
 class							Life
 {
 	public:
